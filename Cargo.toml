@@ -1,0 +1,19 @@
+[package]
+name = "fintech"
+version = "0.1.0"
+authors = ["Mukesh Singh"]
+description = "A fintech library which covers financial along with technical aspect like - you will find functions for financial calculation as-well-as APIs to interact with the Fintech APIs."
+license = "MIT"
+edition = "2021"
+
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
